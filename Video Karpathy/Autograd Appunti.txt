@@ -1,0 +1,13 @@
+GRAFICI: 
+plt.plot(x,y)
+plt.show()
+
+##
+numpy.arange([start, ]stop, [step, ], dtype=None)
+Start (opzionale): specifica il valore iniziale dell'intervallo e se non specificato è 0
+Stop: specifica il valore finale dell'intervallo
+Step (opzionale): Specifica il valore dell'incremento e se non specificato incrementa di 1
+dtype (opzionale): specifica il tipo di dati degli elementi nell'array restituito. Se non specificato viene usato quello di default di NumPy
+
+Simile alla funzione range ma restituisce un array NumPy invece di un oggetto "range", quindi sarà utilizzabile direttamente in operazioni di algebra lineare e altri calcoli vettoriali supportati da NumPy
+##
